@@ -14,3 +14,5 @@ elseif(UNIX)
         message(CHECK_FAIL "X11 support not found")
     endif()
 endif()
+
+install(TARGETS clcwsal LIBRARY DESTINATION lib ARCHIVE DESTINATION lib)
